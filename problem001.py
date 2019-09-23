@@ -5,5 +5,6 @@ def sum_of_divisible_naturals(limit):
             total = total + n
     return total
 
-if '__name__' == '__main__':
+
+if __name__ == '__main__':
     print(sum_of_divisible_naturals(1000))
